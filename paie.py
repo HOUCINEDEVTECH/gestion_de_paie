@@ -131,7 +131,7 @@ class Payement :
 
           ###########################FRAME3
 
-          Frame3 = Frame(self.root, bd=2, relief=RIDGE)
+          Frame3= Frame(self.root, bd=2, relief=RIDGE)
           Frame3.place(x=700, y=525, width=900, height=400)
           ####CALCULATRICE
           Cal_Frame =Frame( Frame3, bd = 2 ,relief = RIDGE)
@@ -178,8 +178,13 @@ class Payement :
           btn_EGALE = Button(Cal_Frame,text="=", command= resulat,font=("times new roman", 20, " bold")).place(x=110, y=140,height=40, width=30)
 
 
+         ##############################FRAME SALAIRE
+             Framesalaire = Frame(Frame3, bd = 2 )
+             Framesalaire.place(x=300 ,y = 0 ,widh= 450 , heighth = 390)
 
 
+            Labele4 = Label(Framesalaire, text="Reçu de Salaire", bd=5, relief= RAISED, font= ( " Algerian",30),bg= " lightgray",fg="black")
+            Labele4.pack( side= TOP ,fill=X)
 
 
 root = Tk()
