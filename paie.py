@@ -9,7 +9,7 @@ class Payement :
           self.root =  root
           self.root.title(" Gestion de paie")
           self.root.geometry("1300x1000+0+0")
-          title = Label( self.root, text =" Gestion de Paie Proffesseur",bd=20, relief= RAISED , font= (' Algerian', 45),bg= 'cyan', fg= 'black')
+          title = Label( self.root, text =" Gestion de Paie Proffesseur",bd=25, relief= RAISED , font= (' Algerian', 45),bg= 'cyan', fg= 'black')
           title.pack( side =TOP, fill= X)
          ################################################# FRAME1
 
